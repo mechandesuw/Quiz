@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		60FE240B225EF3690031C7E2 /* sinnnosuke.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE240A225EF3690031C7E2 /* sinnnosuke.png */; };
 		60FE240D225EF4A30031C7E2 /* noharafamily.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE240C225EF4A20031C7E2 /* noharafamily.png */; };
-		60FE240F225EF5920031C7E2 /* sinnnosuke.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE240E225EF5920031C7E2 /* sinnnosuke.png */; };
 		60FE2411225EF5E90031C7E2 /* pajama.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE2410225EF5E90031C7E2 /* pajama.png */; };
 		60FE2413225EF68F0031C7E2 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 60FE2412225EF68F0031C7E2 /* white.png */; };
 		AF223C441A8C6B9100E3B3B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF223C411A8C6B9100E3B3B9 /* Default-568h@2x.png */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		60FE240A225EF3690031C7E2 /* sinnnosuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sinnnosuke.png; sourceTree = "<group>"; };
 		60FE240C225EF4A20031C7E2 /* noharafamily.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noharafamily.png; sourceTree = "<group>"; };
-		60FE240E225EF5920031C7E2 /* sinnnosuke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sinnnosuke.png; path = ../../sinnnosuke.png; sourceTree = "<group>"; };
 		60FE2410225EF5E90031C7E2 /* pajama.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pajama.png; sourceTree = "<group>"; };
 		60FE2412225EF68F0031C7E2 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 		AF223C411A8C6B9100E3B3B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				60FE2410225EF5E90031C7E2 /* pajama.png */,
-				60FE240E225EF5920031C7E2 /* sinnnosuke.png */,
 				60FE2412225EF68F0031C7E2 /* white.png */,
 				60FE240A225EF3690031C7E2 /* sinnnosuke.png */,
 				60FE240C225EF4A20031C7E2 /* noharafamily.png */,
@@ -151,12 +148,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = LifeisTech;
 				TargetAttributes = {
 					C7343E9A1A89986900D857EA = {
 						CreatedOnToolsVersion = 6.1.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -187,7 +184,6 @@
 				C7343EA61A89986900D857EA /* Main.storyboard in Resources */,
 				AF223C441A8C6B9100E3B3B9 /* Default-568h@2x.png in Resources */,
 				60FE2411225EF5E90031C7E2 /* pajama.png in Resources */,
-				60FE240F225EF5920031C7E2 /* sinnnosuke.png in Resources */,
 				60FE240B225EF3690031C7E2 /* sinnnosuke.png in Resources */,
 				60FE2413225EF68F0031C7E2 /* white.png in Resources */,
 				B101ABFB1B53797400919FB9 /* true.png in Resources */,
@@ -240,6 +236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -294,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -347,7 +345,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -361,7 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

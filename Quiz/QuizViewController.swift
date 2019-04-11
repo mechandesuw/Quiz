@@ -45,7 +45,6 @@ class QuizViewController: UIViewController {
         quizArray = tmpArray.shuffled()
         // 問題をシャッフルしてquizArrayに格納する
         
-        
         while (tmpArray.count > 0) {
             let index = Int(arc4random_uniform(UInt32(tmpArray.count)))
             quizArray.append(tmpArray[index])
